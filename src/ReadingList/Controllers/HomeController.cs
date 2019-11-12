@@ -17,7 +17,7 @@ namespace ReadingList.Controllers
         public HomeController()
         {
             //this.bookManager = bookManager;
-            httpHelper = new HttpHelper("https://localhost:44363/");
+            httpHelper = new HttpHelper("https://localhost:5001/");
         }
 
         [Route("")]
